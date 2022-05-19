@@ -1,0 +1,19 @@
+body {
+  background-color: #F1A2F2;
+}
+
+.navegacao {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navegacao a {
+  color: #A209A4;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navegacao a:hover {
+  background-color: whitesmoke;
+}
