@@ -2,6 +2,10 @@ body {
   background-color: #F1A2F2;
 }
 
+nav {
+  margin-top: 20px;
+}
+
 .navegacao {
   margin-top: 10px;
   text-align: center;
@@ -16,4 +20,33 @@ body {
 
 .navegacao a:hover {
   background-color: whitesmoke;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding: 20px;
+}
+
+.meu-nome {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.meu-nome .textos {
+  margin: auto;
+}
+
+.minha-foto {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.minha-foto img {
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
 }
